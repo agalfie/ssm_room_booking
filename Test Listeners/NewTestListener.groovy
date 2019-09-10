@@ -57,6 +57,7 @@ class NewTestListener {
 		// println testSuiteContext.getTestSuiteId()
 		
 		WebUI.openBrowser('')
+		WebUI.maximizeWindow()
 		WebUI.navigateToUrl('http://188.166.228.73/ssm_ui/login.html')
 	}
 

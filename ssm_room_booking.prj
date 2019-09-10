@@ -3,7 +3,7 @@
    <description></description>
    <name>ssm_room_booking</name>
    <tag></tag>
-   <UUID>fd463300-d68b-43c7-b644-8e4c6dcdf3d8</UUID>
+   <UUID>35814097-0df4-427b-91b6-6b4de1186601</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
@@ -24,5 +24,5 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
-   <type>GENERIC</type>
+   <type>WEBUI</type>
 </Project>
