@@ -14,15 +14,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://188.166.228.73/ssm_ui/login.html')
+not_run: WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_SSM Admin  Login/input_Username_username'), 'admin')
+not_run: WebUI.navigateToUrl('http://188.166.228.73/ssm_ui/login.html')
 
-WebUI.setEncryptedText(findTestObject('Page_SSM Admin  Login/input_Password_password'), 'XmOQ/6z8ODKbsVf3vl/v3Q==')
+WebUI.setText(findTestObject('Page_SSM Admin  Login/input_Username_username'), username)
+
+WebUI.setText(findTestObject('Page_SSM Admin  Login/input_Password_password'), password)
 
 WebUI.click(findTestObject('Page_SSM Admin  Login/i_Login_m-icon-swapright m-icon-white'))
 
-WebUI.mouseOver(findTestObject('Page_SSM  Dashboard/a_Muhammad Hafiz Hashim'))
+WebUI.waitForElementPresent(findTestObject('Page_SSM  Dashboard/div_DashboardManage Room BookingBooking (Customer)Available RoomCalendarListNew BookingBooking List'), 
+    10)
+
+not_run: WebUI.closeBrowser()
 

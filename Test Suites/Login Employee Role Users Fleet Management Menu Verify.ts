@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Login Employee Role Users</name>
+   <name>Login Employee Role Users Fleet Management Menu Verify</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,15 +9,15 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>fa92fe13-d356-4c7b-9ec4-a099b853b099</testSuiteGuid>
+   <testSuiteGuid>7300c889-3249-42d9-8928-fe34c8e24241</testSuiteGuid>
    <testCaseLink>
-      <guid>bf0a2b92-22d7-4434-a634-d4fa2e93ef36</guid>
+      <guid>b2e17f15-0752-4b48-a822-cbf4ddbb5128</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login SSM UI employee users</testCaseId>
+      <testCaseId>Test Cases/Login Employee Role Verify Fleet Management visible</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>009cea0d-2201-46f6-aa33-5ba1ba05d8e3</id>
+         <id>8ea8740d-dd41-4205-a107-384efd839449</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -25,16 +25,16 @@
          <testDataId>Data Files/Employee Role Users</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>009cea0d-2201-46f6-aa33-5ba1ba05d8e3</testDataLinkId>
+         <testDataLinkId>8ea8740d-dd41-4205-a107-384efd839449</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>LOGIN</value>
-         <variableId>d716186d-9de3-4d1a-b344-7bdf58d837ee</variableId>
+         <variableId>c471b1ed-7de8-439c-9978-2c000b0cd2b8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>009cea0d-2201-46f6-aa33-5ba1ba05d8e3</testDataLinkId>
+         <testDataLinkId>8ea8740d-dd41-4205-a107-384efd839449</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>PASSWORD</value>
-         <variableId>d969e00c-0fc2-484f-9979-82acba2c759b</variableId>
+         <variableId>e792a290-9bf0-4d0d-8919-b4b1606533b7</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

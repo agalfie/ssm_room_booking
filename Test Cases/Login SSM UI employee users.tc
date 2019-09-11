@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login SSM UI employee users</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b7cb547-7653-4618-9305-a7f462e123af</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d969e00c-0fc2-484f-9979-82acba2c759b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d716186d-9de3-4d1a-b344-7bdf58d837ee</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
