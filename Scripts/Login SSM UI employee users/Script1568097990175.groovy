@@ -26,8 +26,9 @@ WebUI.setText(findTestObject('Page_SSM Admin  Login/input_Password_password'), p
 
 WebUI.click(findTestObject('Page_SSM Admin  Login/i_Login_m-icon-swapright m-icon-white'))
 
-WebUI.waitForElementPresent(findTestObject('Page_SSM  Dashboard/div_DashboardManage Room BookingBooking (Customer)Available RoomCalendarListNew BookingBooking List'), 
-    10)
+WebUI.waitForElementClickable(findTestObject('Page_SSM  Dashboard/a_Fleet Management'), 10)
+
+WebUI.verifyElementClickable(findTestObject('Page_SSM  Dashboard/a_Fleet Management'), FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.closeBrowser()
 

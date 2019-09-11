@@ -5,12 +5,12 @@
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>2a27262d-fb86-4aed-928e-971ccd913df0</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataFileGUID>08ecf6ac-da4a-4194-9337-176590e95737</dataFileGUID>
+   <dataSourceUrl>D:\SSM Room Booking\SSM UI Users.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>Sheet1</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

@@ -31,10 +31,11 @@ class NewTestListener {
 	def BeforeTestCase(TestCaseContext testCaseContext) {
 		/* println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables() */
+				
 		
-		//WebUI.openBrowser('')
-		//WebUI.navigateToUrl('http://188.166.228.73/ssm_ui/login.html')		
-		
+		WebUI.openBrowser('')
+		WebUI.maximizeWindow()
+		WebUI.navigateToUrl('http://188.166.228.73/ssm_ui/login.html')
 	}
 	
 
@@ -44,8 +45,10 @@ class NewTestListener {
 	 */
 	@AfterTestCase
 	def AfterTestCase(TestCaseContext testCaseContext) {
-		/* println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseStatus() */
+		
+		println testCaseContext.getTestCaseId()
+		println testCaseContext.getTestCaseStatus() 
+		WebUI.closeBrowser()
 	}
 
 	/**
@@ -56,9 +59,6 @@ class NewTestListener {
 	def BeforeTestSuite(TestSuiteContext testSuiteContext) {
 		// println testSuiteContext.getTestSuiteId()
 		
-		WebUI.openBrowser('')
-		WebUI.maximizeWindow()
-		WebUI.navigateToUrl('http://188.166.228.73/ssm_ui/login.html')
 	}
 
 	/**
@@ -68,7 +68,6 @@ class NewTestListener {
 	@AfterTestSuite
 	def AfterTestSuite(TestSuiteContext testSuiteContext) {
 		// println testSuiteContext.getTestSuiteId()
-		
-		WebUI.closeBrowser()
+
 	}
 }
